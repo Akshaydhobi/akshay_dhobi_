@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Section from './Section';
 import { MailIcon, PhoneIcon, GithubIcon, LinkedinIcon } from './Icons';
@@ -24,9 +23,9 @@ const ContactSection: React.FC = () => {
       </p>
       <div className="max-w-md mx-auto bg-white p-8 rounded-xl shadow-lg space-y-4">
         <ContactInfo icon={<MailIcon />} text="akshay.dhobi@example.com" href="mailto:akshay.dhobi@example.com" />
-        <ContactInfo icon={<PhoneIcon />} text="+91 12345 67890" href="tel:+911234567890" />
-        <ContactInfo icon={<GithubIcon />} text="github.com/akshaydhobi" href="https://github.com/" />
-        <ContactInfo icon={<LinkedinIcon />} text="linkedin.com/in/akshaydhobi" href="https://linkedin.com/" />
+        <ContactInfo icon={<PhoneIcon />} text="+91 98765 43210" href="tel:+919876543210" />
+        <ContactInfo icon={<GithubIcon />} text="github.com/akshaydhobi" href="https://github.com/akshaydhobi" />
+        <ContactInfo icon={<LinkedinIcon />} text="linkedin.com/in/akshaydhobi" href="https://linkedin.com/in/akshaydhobi" />
       </div>
     </Section>
   );

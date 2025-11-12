@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Section from './Section';
 import { BriefcaseIcon, AcademicCapIcon, HomeIcon } from './Icons';
@@ -31,13 +30,13 @@ const AboutSection: React.FC = () => {
       <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
       <div className="grid md:grid-cols-3 gap-10">
         <InfoCard icon={<BriefcaseIcon />} title="Qualification">
-          Currently pursuing the third and final year of my Bachelor of Computer Applications (BCA).
+          Currently pursuing my final year in Bachelor of Computer Applications (BCA).
         </InfoCard>
         <InfoCard icon={<AcademicCapIcon />} title="College" delay="150ms">
-          Studying at Shri D. N. Institute of Computer Applications (DNICA), a center for excellence.
+          Studying at Shri D. N. Institute of Computer Applications (DNICA).
         </InfoCard>
         <InfoCard icon={<HomeIcon />} title="Address" delay="300ms">
-          Residing at RajputWado, Khambhat, my hometown where I grew up.
+          Based in RajputWado, Khambhat.
         </InfoCard>
       </div>
     </Section>
